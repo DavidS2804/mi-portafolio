@@ -1,0 +1,207 @@
+
+<style>
+  .cv-wrap { font-family: 'Inter', sans-serif; max-width: 680px; margin: 0 auto; color: var(--color-text-primary); font-size: 13px; line-height: 1.5; }
+  .cv-header { background: #1a2744; color: #fff; padding: 28px 32px 22px; border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0; }
+  .cv-name { font-size: 26px; font-weight: 600; letter-spacing: -0.3px; margin: 0 0 2px; color: #fff; }
+  .cv-title { font-size: 12px; font-weight: 400; color: #90a8c8; margin: 0 0 14px; text-transform: uppercase; letter-spacing: 1px; }
+  .cv-contacts { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 12px; color: #b8ccdf; }
+  .cv-contacts span { display: flex; align-items: center; gap: 5px; }
+  .cv-body { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-top: none; border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg); }
+  .cv-two-col { display: grid; grid-template-columns: 200px 1fr; }
+  .cv-sidebar { background: var(--color-background-secondary); padding: 20px 16px; border-right: 0.5px solid var(--color-border-tertiary); border-radius: 0 0 0 var(--border-radius-lg); }
+  .cv-main { padding: 20px 24px; }
+  .sec-title { font-size: 10px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: #1a2744; margin: 0 0 10px; padding-bottom: 5px; border-bottom: 1.5px solid #1a2744; }
+  .skill-group { margin-bottom: 14px; }
+  .skill-group-title { font-size: 11px; font-weight: 500; color: var(--color-text-secondary); margin: 0 0 5px; }
+  .skill-tag { display: inline-block; background: #e8edf5; color: #1a2744; font-size: 10px; font-weight: 500; padding: 2px 7px; border-radius: 4px; margin: 2px 2px 2px 0; }
+  .lang-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; font-size: 12px; }
+  .lang-dots { display: flex; gap: 3px; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--color-border-tertiary); }
+  .dot.filled { background: #1a2744; }
+  .exp-item { margin-bottom: 16px; padding-bottom: 16px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .exp-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .exp-header { display: flex; justify-content: space-between; align-items: flex-start; }
+  .exp-role { font-size: 13px; font-weight: 600; color: var(--color-text-primary); margin: 0; }
+  .exp-company { font-size: 12px; color: #1a2744; font-weight: 500; margin: 1px 0 1px; }
+  .exp-date { font-size: 11px; color: var(--color-text-secondary); white-space: nowrap; margin-left: 8px; text-align: right; }
+  .exp-loc { font-size: 11px; color: var(--color-text-secondary); margin-bottom: 6px; }
+  .exp-bullets { padding-left: 14px; margin: 0; }
+  .exp-bullets li { font-size: 12px; margin-bottom: 3px; color: var(--color-text-primary); }
+  .exp-tag { display: inline-block; background: #e8edf5; color: #1a2744; font-size: 10px; font-weight: 500; padding: 1px 6px; border-radius: 3px; margin: 4px 2px 0 0; }
+  .edu-item { margin-bottom: 10px; }
+  .edu-title { font-size: 12px; font-weight: 600; margin: 0 0 1px; }
+  .edu-sub { font-size: 11px; color: var(--color-text-secondary); margin: 0; }
+  .profile-text { font-size: 12px; color: var(--color-text-primary); line-height: 1.6; margin-bottom: 16px; }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 14px 0; }
+  .cert-item { font-size: 12px; margin-bottom: 6px; color: var(--color-text-primary); display: flex; align-items: flex-start; gap: 6px; }
+</style>
+
+<div class="cv-wrap">
+  <div class="cv-header">
+    <p class="cv-name">David Salas Zúñiga</p>
+    <p class="cv-title">Operations & Supply Chain | ERP Systems | Tech-Driven</p>
+    <div class="cv-contacts">
+      <span><i class="ti ti-phone" aria-hidden="true"></i> +506 8604 0337</span>
+      <span><i class="ti ti-mail" aria-hidden="true"></i> davidszi747@gmail.com</span>
+      <span><i class="ti ti-brand-linkedin" aria-hidden="true"></i> linkedin.com/in/david-salas-zuñiga</span>
+      <span><i class="ti ti-map-pin" aria-hidden="true"></i> San José, Costa Rica</span>
+    </div>
+  </div>
+
+  <div class="cv-body">
+    <div class="cv-two-col">
+
+      <div class="cv-sidebar">
+
+        <div class="skill-group">
+          <p class="sec-title">Skills</p>
+          <p class="skill-group-title">ERP & Operations</p>
+          <span class="skill-tag">SAP ERP</span>
+          <span class="skill-tag">Inventory Control</span>
+          <span class="skill-tag">Supply Chain</span>
+          <span class="skill-tag">Traceability</span>
+          <span class="skill-tag">Process Optimization</span>
+          <span class="skill-tag">Excel (Advanced)</span>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-title">Data & Quality</p>
+          <span class="skill-tag">Data Annotation</span>
+          <span class="skill-tag">QC Validation</span>
+          <span class="skill-tag">Documentation</span>
+          <span class="skill-tag">Computer Vision</span>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-title">Technology</p>
+          <span class="skill-tag">AWS (IAM)</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">PC Maintenance</span>
+          <span class="skill-tag">Hardware Support</span>
+        </div>
+
+        <hr class="divider">
+
+        <p class="sec-title">Languages</p>
+        <div class="lang-item">
+          <span>Spanish</span>
+          <div class="lang-dots">
+            <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div>
+          </div>
+        </div>
+        <div class="lang-item">
+          <span>English</span>
+          <div class="lang-dots">
+            <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <p class="sec-title">Education</p>
+        <div class="edu-item">
+          <p class="edu-title">B.S. Computer Engineering</p>
+          <p class="edu-sub">Universidad Politécnica UPI</p>
+          <p class="edu-sub">2022 – Present · 63% completed</p>
+        </div>
+
+        <hr class="divider">
+
+        <p class="sec-title">Certifications</p>
+        <div class="cert-item">
+          <i class="ti ti-circle-check" style="font-size:13px;margin-top:1px;color:#1a2744" aria-hidden="true"></i>
+          <span>PC Maintenance — UCR · 2021</span>
+        </div>
+
+        <hr class="divider">
+
+        <p class="sec-title">Soft Skills</p>
+        <span class="skill-tag">Cross-functional teamwork</span>
+        <span class="skill-tag">Attention to detail</span>
+        <span class="skill-tag">Structured workflow</span>
+        <span class="skill-tag">Self-driven learning</span>
+        <span class="skill-tag">Problem solving</span>
+      </div>
+
+      <div class="cv-main">
+        <p class="sec-title">Professional Profile</p>
+        <p class="profile-text">
+          Operations professional and Computer Engineering student with nearly 3 years of hands-on experience in supply chain, ERP systems, and enterprise data management. Proven ability to manage inventory workflows, coordinate cross-functional teams, and deliver accurate results in fast-paced environments. Technical background in IT support, cloud services, and containerization complements a strong operational foundation — bridging day-to-day operations with the systems that support them.
+        </p>
+
+        <p class="sec-title">Work Experience</p>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <div>
+              <p class="exp-role">3D Quality Analyst</p>
+              <p class="exp-company">BMA Group Global</p>
+            </div>
+            <div class="exp-date">Jun 2025 – Present<br>San José · Hybrid</div>
+          </div>
+          <p class="exp-loc">Full-time</p>
+          <ul class="exp-bullets">
+            <li>Analyzed aerial footage and accurately labeled objects following strict project guidelines for machine learning training datasets.</li>
+            <li>Ensured data quality and consistency across annotation tasks to support computer vision model performance.</li>
+            <li>Performed structured quality checks to validate annotation accuracy and maintain performance benchmarks.</li>
+            <li>Maintained detailed workflow documentation and standardized procedures to ensure team-wide compliance.</li>
+          </ul>
+          <div>
+            <span class="exp-tag">Data Annotation</span>
+            <span class="exp-tag">Computer Vision</span>
+            <span class="exp-tag">Quality Assurance</span>
+            <span class="exp-tag">ML Datasets</span>
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <div>
+              <p class="exp-role">Inventory & Process Management Analyst</p>
+              <p class="exp-company">Kerry Group</p>
+            </div>
+            <div class="exp-date">Aug 2022 – Jun 2025<br>Pavas, San José · On-site</div>
+          </div>
+          <p class="exp-loc">Full-time · 2 yrs 11 mos</p>
+          <ul class="exp-bullets">
+            <li>Managed SAP ERP for real-time inventory control and full product traceability across the supply chain.</li>
+            <li>Coordinated material receiving and distribution, optimizing logistics workflows through technology-driven processes.</li>
+            <li>Analyzed inventory data to improve stock accuracy and reduce operational discrepancies.</li>
+            <li>Collaborated with production, logistics, and supplier teams to resolve process bottlenecks and improve efficiency.</li>
+            <li>Informally led daily team operations, ensuring adherence to production schedules and quality standards.</li>
+          </ul>
+          <div>
+            <span class="exp-tag">SAP ERP</span>
+            <span class="exp-tag">Supply Chain</span>
+            <span class="exp-tag">Inventory Control</span>
+            <span class="exp-tag">Cross-functional Teams</span>
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <div>
+              <p class="exp-role">PC Support & Maintenance Technician</p>
+              <p class="exp-company">Vivero ASECAN</p>
+            </div>
+            <div class="exp-date">2021<br>Costa Rica · On-site</div>
+          </div>
+          <p class="exp-loc">Full-time</p>
+          <ul class="exp-bullets">
+            <li>Diagnosed, repaired, and maintained computers and electronic devices for end-users.</li>
+            <li>Installed and configured operating systems and software, including deployment of self-hosted services using Docker.</li>
+            <li>Provided on-site technical support for hardware issues and network connectivity.</li>
+          </ul>
+          <div>
+            <span class="exp-tag">Hardware Support</span>
+            <span class="exp-tag">Docker</span>
+            <span class="exp-tag">OS Configuration</span>
+            <span class="exp-tag">Troubleshooting</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
