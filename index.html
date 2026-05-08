@@ -3,24 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Portafolio</title>
+    <title>David Salas | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
   </head>
   <body>
     <header>
       <nav>
+        <div class="logo">DS</div>
         <ul>
-          <li><a href="#sobre-mi">Sobre mí</a></li>
-          <li><a href="#habilidades">Habilidades</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#sobre-mi">About</a></li>
+          <li><a href="#habilidades">Skills</a></li>
+          <li><a href="#proyectos">Projects</a></li>
+          <li><a href="#contacto">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <section id="sobre-mi">
-      <h1>Hi, I am David</h1>
-      <p>Engineering Student</p>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="greeting">Hi, I'm</p>
+          <h1>David Salas</h1>
+          <p class="role">Systems Engineering Student</p>
+          <p class="description">Passionate about technology, data management and web development. Currently building my skills in Java, JavaScript and React.</p>
+          <a href="#contacto" class="btn">Contact Me</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/foto.jpg" alt="David Salas" />
+        </div>
+      </div>
     </section>
 
     <section id="habilidades">
@@ -45,6 +57,11 @@
       </div>
     </section>
 
+    <section id="proyectos">
+      <h2>Projects</h2>
+      <p class="coming-soon">Coming soon...</p>
+    </section>
+
     <section id="contacto">
       <h2>Contact</h2>
       <div class="contact-info">
@@ -54,5 +71,6 @@
       </div>
     </section>
 
+    <script src="script.js"></script>
   </body>
 </html>
