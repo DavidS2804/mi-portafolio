@@ -43,7 +43,7 @@ nav ul {
 }
 
 nav a {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-size: 15px;
   transition: color 0.3s;
@@ -55,14 +55,14 @@ nav a:hover {
 
 .nav-cv {
   color: #a78bfa !important;
-  border: 1px solid rgba(167,139,250,0.4);
+  border: 1px solid rgba(167, 139, 250, 0.4);
   padding: 6px 14px;
   border-radius: 6px;
   transition: all 0.3s !important;
 }
 
 .nav-cv:hover {
-  background: rgba(167,139,250,0.15);
+  background: rgba(167, 139, 250, 0.15);
 }
 
 #sobre-mi {
@@ -108,7 +108,7 @@ h1 {
 
 .description {
   font-size: 15px;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.8;
   margin-bottom: 28px;
 }
@@ -131,7 +131,7 @@ h1 {
 }
 
 .btn:hover {
-  background: rgba(167,139,250,0.2);
+  background: rgba(167, 139, 250, 0.2);
   transform: translateY(-2px);
 }
 
@@ -195,7 +195,7 @@ h2 {
 }
 
 .skill-card p {
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 13px;
 }
 
@@ -245,7 +245,7 @@ h2 {
 }
 
 .exp-company {
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
   margin-bottom: 12px;
 }
@@ -258,7 +258,7 @@ h2 {
 }
 
 .exp-list li {
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   padding-left: 16px;
   position: relative;
@@ -289,7 +289,7 @@ h2 {
 
 .contact-info p {
   font-size: 16px;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #contacto a {
@@ -315,7 +315,7 @@ h2 {
   }
 
   .hero-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
     padding: 0 20px;
   }
@@ -337,7 +337,9 @@ h2 {
     justify-content: center;
   }
 
-  #habilidades, #experiencia, #contacto {
+  #habilidades,
+  #experiencia,
+  #contacto {
     padding: 40px 20px;
   }
 
@@ -358,5 +360,14 @@ h2 {
 
   .contact-info {
     padding: 24px 30px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skill-card {
+    width: 100%;
   }
 }
