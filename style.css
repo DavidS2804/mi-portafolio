@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+
+}
+
+header {
+    background-color: #1a1a2e;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#sobre-mi {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#sobre-mi h1 {
+  font-size: 48px;
+  color: #1a1a2e;
+  margin-bottom: 15px;
+}
+
+#sobre-mi p {
+  font-size: 18px;
+  color: #666;
+}
+
+#habilidades {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#habilidades h2 {
+  font-size: 36px;
+  color: #1a1a2e;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.skill-card h3 {
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+#contacto {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+#contacto h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact-info p {
+font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+#contacto a {
+  color: #a78bfa;
+  text-decoration: none;
+}
